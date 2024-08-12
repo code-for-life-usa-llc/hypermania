@@ -26,12 +26,12 @@
             }
             p{
                 border: white;
-                color:aliceblue;
-                background-color: navy;
+                color: navy;
+                background-color: rgb(197, 228, 233);
             }
             table{
                 border: 3px solid rgb(191, 222, 255);
-                background-color: rgb(59, 25, 170);
+                background-color: rgb(157, 186, 228);
                 color:aliceblue;
                 
             }
@@ -45,6 +45,12 @@
             }
             img{
                 border:3px solid white
+            }
+            body{
+              background-image: url('images/war.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
             }
         </style>
         <title>page 3</title>
@@ -71,11 +77,18 @@
                 <a class="nav-link" href="AU.html">About Us</a>
               </li>
           </ul>
-          <h2>Violence is a very broad term so it has a lot of variations.</h2>
-          <p>Most people already know about physically abusing groups like children, homosexuals, and people of different races. These types of abuse can have a long lasting effect on the physical and mental state of a person which is why they are some of the most well known forms of violence.</p>
-          <p>However, abuse does not have to be physical. One can hurt another person emotionally and mentally. This can happen when a person is degraded or neglected.</p>
+          <h2 class="group1">Violence is a very broad term so it has a lot of variations.</h2>
+          <p class="group1">Most people already know about physically abusing groups like children, homosexuals, and people of different races. These types of abuse can have a long lasting effect on the physical and mental state of a person which is why they are some of the most well known forms of violence.</p>
+          <p class="group1">However, abuse does not have to be physical. One can hurt another person emotionally and mentally. This can happen when a person is degraded or neglected.</p>
           <center>
-          <table>
+            
+    <button type="button" class="btn btn-outline-info" onclick="Aqua()">Aqua</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="Purple()">Purple</button>
+    <button type="button" class="btn btn-outline-warning" onclick="Gold()">Gold</button>
+    <button type="button" class="btn btn-outline-success" onclick="Green()">Green</button>
+    <button type="button" class="btn btn-outline-primary" onclick="Navy()">Navy</button>
+
+          <table class="group1">
             <tr>
                 <th></th>
                 <th>Physical Violence:</th>
@@ -108,9 +121,10 @@
           </table>
         <br>          
 
-            <img src="images/war.jpg" width="800" length="300">
+
         </center>
           
+      <script src="cause of violence.js"></script>
     </body>
 
 </Html>
